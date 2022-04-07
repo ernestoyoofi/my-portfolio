@@ -15,8 +15,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>My Portfolio | Ernesto Yoofi</title>
-        <meta name="description" content="Hey!!, I'M Newbie Coders From Indonesia 😏"/>
-        <link ref="icon" href='https://portfolio-ernestoyoofi.vercel.app/img/profile.jpg' />
+        <meta name="description" content="Hey!!, I'm Newbie Coders From Indonesia 😏"/>
+        <link ref="icon" href='/img/profile.jpg' />
       </Head>
       <nav className={styles.navbar}>
         <div className={styles.respon_navbar}>
