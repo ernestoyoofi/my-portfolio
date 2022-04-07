@@ -1,0 +1,226 @@
+.navbar {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99999;
+  background-color: #ffffff;
+  box-shadow: rgba(0,0,0,0.20) 0px 0px 6px;
+}
+
+.href a{
+  color: #297bff;
+}
+.href a:hover {
+  color: #297bff;
+  text-decoration: underline;
+}
+.main {
+  padding-top: 50px;
+}
+.respon_main {
+  max-width: 1020px;
+  width: 100%;
+  margin: auto;
+  padding: 16px;
+}
+
+
+.banner {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.banner .profil {
+  position: absolute;
+  max-width: 1020px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .profil .profil_img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  overflow: hidden;
+  margin-right: 4px;
+}
+.banner .profil .profil_desc {
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 4px;
+}
+@media only screen and (max-width: 430px) {
+  .banner {
+    height: 240px;
+  }
+  .banner .profil {
+    position: absolute;
+    max-width: 1020px;
+    width: 100%;
+    display: inline;
+  }
+  .banner .profil .profil_img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    overflow: hidden;
+  }
+  .banner .profil .profil_desc {
+    width: 90%;
+    display: block;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+    margin: auto;
+  }
+}
+
+.contentable {
+  padding-top: 2.2rem;
+  width: 100%;
+}
+.contentable .label{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  font-weight: bold;
+  color: #297bff;
+}
+.contentable .col_3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contentable .col_3 .box_card{
+  width: 32%;
+  margin: 2px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 2px;
+  transition: 0.3s;
+}
+.contentable .col_3 .box_card_igol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  margin: 2px;
+  height: 130px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 2px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+@media only screen and (max-width: 770px) {
+  .contentable .col_3 .box_card{
+    width: 49%;
+  }
+  .contentable .col_3 .box_card_igol{
+    width: 49%;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contentable .col_3 .box_card{
+    width: 99%;
+  }
+  .contentable .col_3 .box_card_igol{
+    width: 100%;
+    height: 160px;
+  }
+}
+.contentable .col_3 .box_card:hover{
+  box-shadow: rgba(0,0,0,0.07) 0px 0px 20px;
+}
+
+.form {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+.form input{
+  display: block;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  margin: 3px;
+}
+.form input{
+  display: block;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  margin: 3px;
+  transition: 0.2s;
+}
+.form input:focus, .form textarea:focus{
+  outline: 4px solid rgba(0, 89, 255, 0.5);
+}
+.form textarea{
+  width: 100%;
+  height: 98px;
+  display: block;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #c0c0c0;
+  resize: none;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.footer {
+  width: 100%;
+  background-color: #297bff;
+}
+.footer * {
+  color: #ffffff;
+  list-style-type: none;
+}
+.footer ul {
+  margin-top: 6px;
+  list-style-type: none;
+}
+.footer_respon {
+  max-width: 1020px;
+  width: 100%;
+  margin: auto;
+  padding: 16px;
+}
+.footer_col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer_col .card_end {
+  width: 32.2%;
+  margin: 3px;
+}
+@media only screen and (max-width: 770px) {
+  .footer_col .card_end {
+    width: 49%;
+    margin: 3px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer_col .card_end {
+    width: 100%;
+    margin: 3px;
+  }
+}
