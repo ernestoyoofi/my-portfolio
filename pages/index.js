@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>My Portfolio | Ernesto Yoofi</title>
         <meta name="description" content="Hey!!, I'm Newbie Coders From Indonesia 😏"/>
-        <link ref="icon" href='/img/profile.jpg' />
+        <link ref="icon" href="/img/profile.jpg" />
       </Head>
       <nav className={styles.navbar}>
         <div className={styles.respon_navbar}>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className={styles.contentable}>
             <span className={styles.label}>About Me</span>
             <div className={styles.href}>
-              Hii, i'm Ernesto Yoofi,  i live in the country <a href="">Indonesia</a>, i junior high school in <a href="https://www.smpn1nanggulan.sch.id/">SMPN 1 Nanggulan</a>, inspiration Coding From <a href="">Lecturer WPU - Sandhika Galih ✨</a>, i have social media <a href="https://www.instagram.com/yoofi.ernesto/">Instagram</a>, <a href="https://www.facebook.com/zeemong.yetta.5">Facebook</a>, <a href="https://www.youtube.com/channel/UCoiy7J9wuubiqdvvJvImmMg">Youtube</a>, and <a href="https://www.tiktok.com/@ernesto.yoofi_1403">Tiktok</a>
+              Hii, i Ernesto Yoofi,  i live in the country <a href="https://id.m.wikipedia.org/wiki/Indonesia">Indonesia</a>, i junior high school in <a href="https://www.smpn1nanggulan.sch.id/">SMPN 1 Nanggulan</a>, inspiration coding from <a href="https://github.com/sandhikagalih">Lecturer WPU - Sandhika Galih ✨</a>, i have social media <a href="https://www.instagram.com/yoofi.ernesto/">Instagram</a>, <a href="https://www.facebook.com/zeemong.yetta.5">Facebook</a>, <a href="https://www.youtube.com/channel/UCoiy7J9wuubiqdvvJvImmMg">Youtube</a>, and <a href="https://www.tiktok.com/@ernesto.yoofi_1403">Tiktok</a>
             </div>
           </div>
           <div className={styles.contentable}>
