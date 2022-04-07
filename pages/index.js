@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>My Portfolio | Ernesto Yoofi</title>
         <meta name="description" content="Hey!!, I'm Newbie Coders From Indonesia 😏"/>
-        <link ref="icon" href="/img/profile.jpg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className={styles.navbar}>
         <div className={styles.respon_navbar}>
