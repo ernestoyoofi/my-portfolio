@@ -17,6 +17,7 @@ export default function Home() {
         <title>My Portfolio | Ernesto Yoofi</title>
         <meta name="description" content="Hey!!, I'm Newbie Coders From Indonesia 😏"/>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="wcC28rNmbYV1lR_OamoSTSVfx87bc4xPFDq_yZt62TA" />
       </Head>
       <nav className={styles.navbar}>
         <div className={styles.respon_navbar}>
